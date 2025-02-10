@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enhanced pastel healthcare theme */
+:root {
+  --color-primary: #4FA3D9;
+  --color-primary-light: #7CBAE6;
+  --color-secondary: #FFB5A6;
+  --color-success: #75D5A5;
+  --color-warning: #FFD875;
+  --color-danger: #FF9B9B;
+  --color-background: #F7FAFD;
+  
+  /* Header gradient colors - pastel blue to pink */
+  --header-gradient-start: #B5D8F7;
+  --header-gradient-middle: #E2D3F4;
+  --header-gradient-end: #FFD6E5;
+  
+  /* Form gradient */
+  --form-gradient-1: #4FA3D9;
+  --form-gradient-2: #7CBAE6;
+  --form-gradient-3: #FFB5A6;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.btn-primary {
+  @apply bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-light)] transition-colors duration-200 shadow-sm;
+}
+
+.status-badge {
+  @apply px-3 py-1 rounded-full text-sm font-medium shadow-sm;
+}
+
+/* Enhanced card styles */
+/* .appointment-card {
+  @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+} */
+
+/* Gradient background for header */
+/* .header-gradient {
+  @apply bg-gradient-to-r from-[var(--header-gradient-start)] via-[var(--header-gradient-middle)] to-[var(--header-gradient-end)];
+} */
+
+/* Form styles
+.form-gradient-border {
+  @apply relative rounded-lg p-[2px] bg-gradient-to-r from-[var(--form-gradient-1)] via-[var(--form-gradient-2)] to-[var(--form-gradient-3)];
+}
+
+.form-inner {
+  @apply bg-white rounded-[6px] p-6;
+} */
+
+/* Enhanced select and input styles
+.form-select, .form-input {
+  @apply bg-white border border-gray-200 rounded-md px-4 py-2 focus:border-[var(--color-primary)] focus:ring-2 focus:ring-opacity-20 focus:ring-[var(--color-primary)] transition-all duration-200;
+} */

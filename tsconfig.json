@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "app/(route)/Doctor/Patient Management/_components/VitalsCard.jsx",
+    "app/(route)/Doctor/Patient Management/_components/PatientHeader.jsx",
+    "app/(route)/Doctor/Patient Management/_components/MedicationManagement.jsx",
+    "app/(route)/Doctor/Patient Management/_components/MedicalTimeline.jsx",
+    "app/(route)/Doctor/Patient Management/_components/LabResults.jsx",
+    "app/(route)/Doctor/DoctorMessaging/components/modals/NotesModal.jsx",
+    "app/(route)/Doctor/DoctorMessaging/components/modals/PrescribeModal.jsx",
+    "app/(route)/Doctor/DoctorMessaging/components/ActionButtons.jsx",
+    "app/(route)/Doctor/DoctorMessaging/components/modals/UrgentModal.jsx",
+    "app/(route)/Doctor/DoctorMessaging/components/modals/ScheduleModal.jsx",
+    "app/(route)/Doctor/DoctorMessaging/data/patients.js",
+    "app/(route)/Patient/appointment/appointments/DetailedAppointment.jsx",
+    "app/(route)/Patient/appointment/appointments/AppointmentFilters.jsx",
+    "app/(route)/Patient/appointment/_components/data/appointments",
+    "app/(route)/Patient/appointment/_components/utils/dateUtils.js",
+    "app/(route)/Patient/appointment/_components/types/appointment.js",
+    "app/(route)/Patient/appointment/_components/layout/Header.jsx",
+    "app/(route)/Patient/appointment/_components/hooks/useAppointments.jsx",
+    "app/(route)/Patient/appointment/_components/data/mockData.js",
+    "app/(route)/Patient/appointment/_components/common/Toast.jsx",
+    "app/(route)/Patient/appointment/_components/appointments/AppointmentCard.jsx",
+    "app/(route)/Patient/medication/_components/Calendar/CalendarHeader.jsx",
+    "app/(route)/Patient/medication/_components/Calendar/MedicationCalendar.jsx",
+    "app/(route)/Patient/medication/_components/Calendar/DayView.jsx",
+    "app/(route)/Patient/medication/_components/Calendar/MedicationLegend.jsx",
+    "app/(route)/Patient/medication/_components/Calendar/MonthView.jsx",
+    "app/(route)/Patient/medication/_components/Calendar/WeekView.jsx",
+    "app/(route)/Patient/medication/_components/Common/ConfirmDialog.jsx",
+    "app/(route)/Patient/medication/_components/data/mockData.js",
+    "app/(route)/Patient/medication/_components/Medications/MedicationList.jsx",
+    "app/(route)/Patient/medication/_components/Refills/RefillRequests.jsx",
+    "app/(route)/Patient/medication/_components/types/medication.js",
+    "app/(route)/Patient/medication/_components/utils/dateUtils.js",
+    "app/(route)/Patient/medication/_components/utils/idGenerator.js",
+    "app/(route)/Patient/medication/_components/utils/toast.js",
+    "app/(route)/Patient/appointment/_components/appointments/AppointmentRequest.jsx"
+, "app/(route)/Doctor/settings/page.js", "app/(route)/Doctor/settings/_components/Modal.jsx", "app/(route)/Doctor/settings/_components/SettingsLayout.jsx", "app/(route)/Doctor/settings/_components/Toast.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
