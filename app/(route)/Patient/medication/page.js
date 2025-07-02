@@ -8,7 +8,7 @@ import { MedicationList } from "./_components/Medications/MedicationList"
 import { initialMedications } from "./_components/data/mockData"
 import { generateId } from "./_components/utils/idGenerator"
 
-export function App() {
+export default function App() {
   const [medications] = useState(initialMedications)
   const [doseLogs, setDoseLogs] = useState([])
   const [refillRequests, setRefillRequests] = useState([])
@@ -75,5 +75,3 @@ export function App() {
     </div>
   )
 }
-
-export default App
